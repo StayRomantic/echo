@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Echo</title>
+    <h1 style="font-size: 0rem; margin: 0; height: 0rem;">echo-learning.com </h1>
+    <!-- styles -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav>
+        <nav>
+            <div class="nav-center">
+              <h4>Echo</h4>
+              <ul class="nav-links">
+                <li><a href="index.html">learning</a></li>
+                <li><a href="voc.html">vocabulary</a></li>
+              </ul>
+            </div>
+          </nav>
+    </nav>
+    <main>
+        <div class="container">
+            <h2>Word : <span id='word' class="color">word</span> </h2>
+            <div class="flex">
+              <button class="btn btn-hero new" id="btn">
+                New Word
+              </button>
+              <input class="input" type="text" id="inp">
+              <button class="btn btn-hero submit" onclick="submit()" id="btn">Submit </button>
+            </div>
+            <h2>Meaning : <span id="meaning" class="color">meaning</span> </h2>
+            <i class="fa fa-check" style="font-size:2.25rem" id="open"></i>
+            <i class="fa fa-close" style="font-size:2.25rem" id="close"></i>
+            <br>
+            <br>  
+
+        </div>
+    </main>
+    <!-- javascript -->
+    <script src="app.js"></script>
+  </body>
+</html>
