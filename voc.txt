@@ -1,0 +1,2 @@
+['forhandling', 'kontrakt', 'bedrift', 'avtale ', '']
+['negotiation', 'contract', 'business', 'deal', '']
